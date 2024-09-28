@@ -1,5 +1,9 @@
 # vulacana
 Example Usage
+Running
+```console
+cargo run
+```
 ```console
 curl -X POST http://localhost:8080/proxy \
     -H "Content-Type: application/json" \
