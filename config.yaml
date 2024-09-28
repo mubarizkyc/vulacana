@@ -1,0 +1,7 @@
+endpoints:  
+- https://api.mainnet-beta.solana.com  
+- https://mainnet.helius-rpc.com/?api-key=a61bb4c9-2102-40b6-a4ac-533628cb6617
+- https://rpc.hellomoon.io/fa2b8d79-0432-4059-9f7f-750b0df82a36
+- https://global.rpc.hellomoon.io/fa2b8d79-0432-4059-9f7f-750b0df82a36
+use_cluster_nodes: false
+client_timeout: 10 
