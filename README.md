@@ -1,9 +1,13 @@
 # vulacana
+When you want to ensure that your transaction is processed, you can send the same request to multiple providers and let the validators determine which one arrives first. Keep in mind that some RPC methods work with certain providers while others do not, but you can pass this information along.
+
+Since all RPC providers can experience issues, sol-shotty helps you get faster responses when a specific RPC provider is slow or completely down, without requiring any reconfiguration!
+
 Running
 ```console
 cargo run
 ```
-Usage
+Example
 ```console
 curl -X POST http://localhost:8080/proxy \
     -H "Content-Type: application/json" \
