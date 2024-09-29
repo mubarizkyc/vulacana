@@ -16,8 +16,15 @@ curl -X POST http://localhost:8080/proxy \
 ```
 You can use free as well as paid RPC providers 
 
-Free Providers
-
+# Configure
+put your rpc endpoints in **config.yaml**
+```console
+endpoints:  
+- https://api.mainnet-beta.solana.com  
+use_cluster_nodes: false
+client_timeout: 10 
+```
+Popular Providers
 [Helius](https://www.helius.dev/solana-apis). 
 [HelloMoon](https://docs.hellomoon.io/reference/hello-moon-rpc).
 [BlockDaemon](https://www.blockdaemon.com/get-started/nodes).
