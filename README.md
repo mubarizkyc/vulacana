@@ -18,6 +18,6 @@ You can use free as well as paid RPC providers
 
 Free Providers
 
-[Helius](https://www.helius.dev/solana-apis)
-
-[HelloMoon](https://docs.hellomoon.io/reference/hello-moon-rpc)
+[Helius](https://www.helius.dev/solana-apis). 
+[HelloMoon](https://docs.hellomoon.io/reference/hello-moon-rpc).
+[BlockDaemon](https://www.blockdaemon.com/get-started/nodes).
