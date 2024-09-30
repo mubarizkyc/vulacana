@@ -4,15 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-actix-web = "4.9.0"
-anyhow = "1.0.89"
 axum = { version = "0.7.6", features = ["tokio", "http1"] }
 bytes = "1.7.2"
 config = "0.14.0"
 futures = "0.3.30"
-http = "1.1.0"
-hyper = "1.4.1"
-memmap2 = "0.9.5"
 reqwest = { version = "0.12.7", features = ["blocking", "json"] }
 
 serde = {version="1.0.210",features = ["derive"] }
@@ -22,3 +17,4 @@ tokio = { version = "1.40.0", features = ["full"] }
 tower = "0.5.1"
 tower-http = {version="0.6.1",features = ["cors"]}
 tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
