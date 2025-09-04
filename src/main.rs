@@ -63,9 +63,9 @@ async fn main() {
     let config = Arc::new(Config {
         endpoints: vec![
             "https://api.mainnet-beta.solana.com".to_string(),
-            "https://mainnet.helius-rpc.com/?api-key=a61bb4c9-2102-40b6-a4ac-533628cb6617"
+            "https://mainnet.helius-rpc.com/?api-key=REDACTED"
                 .to_string(),
-            "https://rpc.hellomoon.io/fa2b8d79-0432-4059-9f7f-750b0df82a36".to_string(),
+            "https://rpc.hellomoon.io/REDACTED".to_string(),
         ],
     });
 
